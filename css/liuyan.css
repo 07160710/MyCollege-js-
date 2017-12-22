@@ -1,0 +1,126 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-size: 12px;
+	background: #226039 url(../images/bg.jpg) center 0 scroll no-repeat; 
+	color: #5d5d5d;
+}
+header{
+	width: 100%; 
+	margin: auto; 
+	border-bottom: #3c7a48 1px solid 
+}
+.head{width: 1000px; 
+	position: relative; 
+	margin: 60px auto 120px auto;
+}
+.head p{ 
+	text-shadow: #246640 1px 1px 1px; 
+	color: #fff; width: 330px; 
+	line-height: 26px; 
+}
+#time{
+	position: absolute;
+	left:0px;
+	top:100px;
+	font-size: 20px;
+	font-style: bold;
+	color:#fff;
+}
+.text{
+	position: absolute; 
+	left: 0px;
+	top: 160px; 
+	font-size: 30px; 
+	color: #FFF;
+	z-index:3;
+	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 30%,rgba(255,255,255,.2));
+}
+.flower{
+	position: absolute;
+	right: 0; 
+	top: 60px;
+	background: url(../images/flower.png) no-repeat;
+	width: 173px;
+	height: 175px;
+	z-index: 2;
+}
+.flower img{
+	margin: 22px 0 0 17px;
+	display: block;
+}
+#nav{
+	z-index:1;
+	width:100%;
+	line-height:50px;
+	height:50px;
+	font-size:16px; 
+	background:rgba(56,134,72,.8);
+	text-align:center;
+	position:relative;
+	border-bottom:#559765 1px solid;
+	/*opacity: 0.8;*/
+}
+#nav ul{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden 
+}
+#nav ul li{
+	display: inline; 
+	margin: 0 12px;
+	text-align: center;
+}
+#nav ul li a{
+	color: #fff;
+	text-decoration: none; 
+}
+#nav ul li a:hover{
+	color: #8B8B00;
+	text-decoration: none; 
+}
+#liuyanban{
+	width: 100%;
+	background: #559664;
+	padding: 30px 0;
+	overflow: hidden;
+	border-bottom: #226039 1px solid;
+}
+.pt{
+	left: 50px;
+	width: 500px;
+	position: relative;
+}
+#msg{
+	margin-top: 10px;
+	border-radius: 10px;
+	width:300px;
+	height: 150px;
+	margin-bottom: 10px;
+	text-indent: 2em;
+	font-size: 15px;
+	padding: 5px;
+}
+#ts{
+	color:red;
+}
+#msgs{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:1000px;
+	color:#2B2B2B;
+}
+#msgs ul li{
+	list-style: none;
+}
+#msgs ul li span{
+	color:#0000FF;
+}
+#btn,#btn1{
+	width:50px;
+	height: 30px
+}

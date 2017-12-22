@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body{
+	background:url("../images/login_bg.jpg");;
+}
+#div1{
+	margin-top: 140px;
+}
+#div1 table{
+	width:468px;
+	height:262px;
+	background-color: #FFF;
+	text-align: center;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	border-radius: 15px;
+}
+#name{
+	width:200px;
+	height:30px;
+	border-radius: 5px;
+}
+#number{
+	width:200px;
+	height:30px;
+	border-radius: 5px;
+}
+#input3{
+	cursor: pointer;
+	font-style: inherit;
+	width:50px;
+	height:30px;
+	background-color: #ADFF2F;
+	border-radius: 5px;
+}
+#reg{
+	cursor: pointer;
+	margin-left: 15px;
+	width:50px;
+	height:30px;
+	background-color: #ADFF2F;
+	border-radius: 5px;
+}
+#input5{
+	cursor: pointer;
+	margin-left: 15px;
+	width:50px;
+	height:30px;
+	background-color: #ADFF2F;
+	border-radius: 5px;
+}
+span{
+	text-align: right;
+	color:red;
+}

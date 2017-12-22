@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的大学生活</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/reg.css" rel="stylesheet">
+<script type="text/javascript" src="js/verification.js"></script>
+</head>
+<body>
+<form action="index.html" name="form1" onsubmit="return check()">
+	<div id="div1" align="center">
+    <table>
+    	<tr>
+    		<th colspan="2" align="center">请注册</th>
+    	</tr>
+	    <tr><td class="right">网名：</td><td class="left"><input type="text" id="username" name="username" onblur="checkName()"></td><td><span id="ts"></span></td></tr>
+	    <tr><td class="right">学号：</td><td class="left"><input type="text" id="number" name="number" onblur="checkNumber()"></td><td><span id="ts1"></span></td></tr>
+	    <tr><td class="right">出生年月：</td><td class="left"><input type="text" id="birth" name="birth" onblur="checkBirth()"></td><td><span id="ts2"></span></td></tr>
+	    <tr><td class="right">密码：</td><td class="left"><input type="password" id="password" name="password" onblur="checkPassword()"></td><td><span id="ts3"></span></td></tr>
+	    <tr><td class="right">确认密码：</td><td class="left"><input type="password" id="affirmpwd" name="affirmpwd" onblur="affirmPassword()"></td><td><span id="ts4"></span></td></tr>
+	    <tr><td class="right">邮箱地址：</td><td class="left"><input type="text" id="email" name="email" onblur="checkEmail()"></td><td><span id="ts5"></span></td></tr>
+	    <tr><td class="right">电话号码：</td><td class="left"><input type="text" id="phone" name="phone" onblur="checkPhone()"></td><td><span id="ts6"></span></td></tr>
+	    <tr><td class="right"><input type="checkbox" name="checkbox" id="xieyi" /></td><td class="left">我同意遵守会员协议</td><td><span id="ts7"></span></td></tr>
+	    <tr><td colspan="2" align="center"><input type="submit" value="完成注册" name="regok" id="regbtn" /></td></tr>
+    </table>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的大学生活</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/index.css" rel="stylesheet">
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <form action="main.html" method="post" onsubmit="return loginyz()">
+    	<div id="div1" align="center">
+    		<table>
+    			<tr>
+    				<th colspan="2" align="center">请登录</th>
+    			</tr>
+    			<tr>
+    				<td>姓名：<input type="text" id="name" name="name" value="黄凯锋" onblur="haveuser()"/></td><td><span id="t1"></span></td>
+                </tr>
+                <tr>
+                    <td>学号：<input type="text" id="number" name="studentno" value="07160710" onblur="havenumber()" /></td><td><span id="t2"></span></td>
+                </tr>
+    			
+    			<tr><td colspan="2" align="center"><input id="input3" type="submit" name="btn1" onclick="" value="登录"><input type="button" id="reg" name="reg" value="注册" onclick="regis()" /><input id="input5" type="reset" name="reset" value="重置"></td></tr>
+    		</table>
+    	</div>
+    </form>
+</body>
+</html>
